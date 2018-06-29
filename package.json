@@ -1,0 +1,29 @@
+{
+  "name": "gulp-first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "dev": "gulp watchcss watchjs",
+    "sass": "gulp sassToCss",
+    "watchcss":"gulp watchcss",
+    "dayin": "gulp dayin",
+    "babel":"gulp babel",
+    "watchjs":"gulp watchjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-devserver": "^0.6.3",
+    "gulp-sass": "^4.0.1"
+  }
+}
+
+
