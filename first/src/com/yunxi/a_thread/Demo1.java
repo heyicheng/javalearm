@@ -34,7 +34,6 @@ public class Demo1 {
         Thread thread = new Thread(new MyThread2());
         thread.start();
 
-
     }
     @Test
     public void demo(){
