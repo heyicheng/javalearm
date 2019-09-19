@@ -12,3 +12,5 @@ out/
 *.ntvs*
 *.njsproj
 *.sln
+first.iml
+out/
